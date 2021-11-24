@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "141723274788",
+    "project_id": "med-controller-667c9",
+    "storage_bucket": "med-controller-667c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141723274788:android:8a79b5ba38398e292ad2b1",
+        "android_client_info": {
+          "package_name": "com.example.medcontroller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141723274788-j5v5nfgvt5ctvh5bmej82v0o8rn47ts7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medcontroller",
+            "certificate_hash": "264cd968a72ffdba423f002fe309f1a82d3c4aa1"
+          }
+        },
+        {
+          "client_id": "141723274788-6eug8si7bvp9fei5areoksecqloqo01g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC05BJq8X2BGcl7r7Ecnv1bQbGoVnipO-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141723274788-6eug8si7bvp9fei5areoksecqloqo01g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

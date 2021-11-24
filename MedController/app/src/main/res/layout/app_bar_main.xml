@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.MedController.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.MedController.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="10dp"
+        fab:menu_icon="@drawable/ic_baseline_add_24"
+        app:menu_colorNormal="#ff0000"
+        app:menu_colorPressed="#9f1919">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="CadastrarMedicamentos"
+            fab:fab_colorNormal="#282828"
+            fab:fab_colorPressed="#151515"
+            fab:fab_label="Medicamentos"
+            fab:fab_size="mini"
+            fab:menu_icon="@drawable/ic_baseline_add_24" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_paci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="CadastrarPaciente"
+            fab:fab_colorNormal="#282828"
+            fab:fab_colorPressed="#151515"
+            fab:fab_label="Pacientes"
+            fab:fab_size="mini"
+            fab:menu_icon="@drawable/ic_baseline_add_24" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="CadastroHorario"
+            fab:fab_colorNormal="#282828"
+            fab:fab_colorPressed="#151515"
+            fab:fab_label="Horários"
+            fab:fab_size="mini"
+            fab:menu_icon="@drawable/ic_baseline_add_24" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
